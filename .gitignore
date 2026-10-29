@@ -1,0 +1,26 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+taller5-env/
+.tox/
+
+# Caché de Python y pruebas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos de empaquetamiento
+build/
+dist/
+*.egg-info/
+
+# Archivos de modelos entrenados
+*.pkl
+*.joblib
+
+# Configuración local
+.env
+.vscode/
